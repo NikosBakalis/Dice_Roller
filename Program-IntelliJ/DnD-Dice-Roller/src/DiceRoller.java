@@ -6,8 +6,7 @@ public class DiceRoller {
 
         int numberOfDice, kindOfDie, sumOfRandomRolls = 0, result;
         int[] possibleDice = new int[]{4, 6, 8, 10, 12, 20};
-        int modifier;
-        int modifierNumber;
+        int modifier, modifierNumber;
 
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
