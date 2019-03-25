@@ -55,6 +55,8 @@ public class DiceRoller {
                     default:
                         break;
                 }
+            }else{
+                continue;
             }
         }
     }
