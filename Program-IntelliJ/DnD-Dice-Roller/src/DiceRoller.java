@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class DiceRoller /*extends Application*/ {
+public class DiceRoller {
     public static void main(String[] args) {
         int numberOfDice, kindOfDie, sumOfRandomRolls = 0, result;
         int[] possibleDice = new int[]{4, 6, 8, 10, 12, 20};
